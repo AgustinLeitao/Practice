@@ -1,0 +1,14 @@
+1. ¿Cuál es la finalidad del script 1?
+- La finalidad del script es ejecutar los procesos firefox y gedit inicialmente. Y luego ir reabriendo estos procesos una vez que fueron cerrados. 
+ 
+2. ¿Qué significa el ampersand(&) utilizado en ambos scripts?
+- El & ejecuta el comando que lo antepone en segundo plano (Background).
+
+3. ¿Qué información brinda la variable “$!”?
+- La variable $! devuelve el PID ( Identificador de proceso ) del ultimo proceso lanzado en segundo plano (Background)
+
+4. ¿Para qué sirve el comando “wait”?
+- El comando wait sin parametros espera hasta que terminen los procesos hijos activos lanzados por el script (Proceso Padre) y luego retorna 0.
+
+5. ¿Qué sucedería si pasáramos un PID como parámetro al comando wait? Dar un ejemplo de este caso.
+- Ejemplo: wait 3850 . En este caso el script (Proceso Padre) continua su ejecucion luego del wait() cuando el proceso 3850 finalice. 

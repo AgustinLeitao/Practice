@@ -1,0 +1,1 @@
+Todas las modificaciones estan en el script powershell llamado Ejercicio1.ps1, con todos los correspondientes comentarios.
