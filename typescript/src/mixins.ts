@@ -49,3 +49,8 @@ function applyMixins(derivedCtor: any, baseCtors: any[]) {
     });
   });
 }
+
+
+import Pepo, { logToConsole as pepe} from "object.js";
+
+pepe();

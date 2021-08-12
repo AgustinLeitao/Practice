@@ -91,4 +91,6 @@ studentEntries.add("John").add("Peter").add("Gayle").add("Kohli");
 
 // Date
 
-let date: Date = new Date("2020-01-12");   
+let date: Date = new Date("2020-01-12");  
+
+  export function logToConsole() {console.log("") }

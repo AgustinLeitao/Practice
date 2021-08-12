@@ -1,7 +1,6 @@
 "use strict";
-var userInput;
-var userName;
-// username = userInput Not valid.
+let userInput;
+let userName; // username = userInput Not valid.
 if (typeof userInput === 'string') {
     userName = userInput;
 }
